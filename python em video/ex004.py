@@ -1,0 +1,8 @@
+frase = (input('Digite algo: '))
+print(type(frase))
+print('é numérico?', frase.isnumeric())
+print('é alfabético?', frase.isalpha())
+print('é alfanumérico?', frase.isalnum())
+print('está em maiúsculas?', frase.isupper())
+print('está em minúsculas?', frase.islower())
+print('está capitalizada?', frase.istitle())

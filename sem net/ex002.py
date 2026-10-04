@@ -1,0 +1,8 @@
+user = str(input("Digite uma frase: "))
+print(f'O tipo da solicitação é: {type(user)}')
+print(f'O texto só tem espaços? {user.isspace()}')
+print(f'O texto é uma letra? {user.isalpha()}')
+print(f'O texto é um numeros? {user.isnumeric()}')
+print(f'O texto está em maiusculo? {user.isupper()}')
+print(f'O texto está em minusculo? {user.islower()}')
+print(f'O texto está capitalizado? {user.istitle()}')
